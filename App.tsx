@@ -303,7 +303,7 @@ const App: React.FC = () => {
                           <Sparkles className="w-6 h-6 text-cyan-400" />
                         </div>
                         <div>
-                          <h3 className="text-xl font-bold">Analisis AI Gemini</h3>
+                          <h3 className="text-xl font-bold">Analisis Sistem</h3>
                           <p className="text-xs text-gray-500 font-bold uppercase tracking-widest">Content Insight</p>
                         </div>
                       </div>
@@ -352,7 +352,7 @@ const App: React.FC = () => {
                     </div>
 
                     <div className="pt-6 border-t border-white/5 flex items-center justify-center">
-                       <p className="text-[10px] text-gray-600 font-medium">Data dianalisis menggunakan Gemini 3 Pro Preview</p>
+                       <p className="text-[10px] text-gray-600 font-medium">Data dianalisis menggunakan Sistem Canggih</p>
                     </div>
                   </div>
                 )}
@@ -363,7 +363,7 @@ const App: React.FC = () => {
           {!videoData && !loading && (
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-12">
                {[
-                 { icon: ShieldCheck, title: "100% Free API", desc: "Menggunakan jalur API publik TikWM yang stabil dan gratis.", color: "text-green-500", bg: "bg-green-500/10" },
+                 { icon: ShieldCheck, title: "100% Free API", desc: "Menggunakan jalur yang stabil dan gratis.", color: "text-green-500", bg: "bg-green-500/10" },
                  { icon: Zap, title: "No Watermark", desc: "Dapatkan video bersih tanpa logo TikTok dalam hitungan detik.", color: "text-cyan-400", bg: "bg-cyan-400/10" },
                  { icon: Music, title: "Audio Extractor", desc: "Ambil musik latar favoritmu dalam format MP3 kualitas tinggi.", color: "text-pink-500", bg: "bg-pink-500/10" }
                ].map((f, i) => (
